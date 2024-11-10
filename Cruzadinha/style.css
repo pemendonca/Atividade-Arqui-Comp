@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    * {
+margin: 0;
+padding: 0;
+}
+
+body{
+background-color: #000000;
+background-image: url(./imgs/my-neighbor-totoro-ghibli-4k-wallpaper-uhdpaper.com-432@0@f.jpg);
+background-size: 100%;
+font-family: monospace;
+
+}
+header h1{
+text-align: center;
+font-size: 30px;
+}
+
+
+table {
+    
+    font-size:25px; 
+    margin-left: 130px;
+    margin: auto;
+}
+
+
+tr {
+    border: 1px #ffffff solid;
+}
+
+td {
+    border: 1px #000000 solid;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.div_button button{
+    border: 0px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+button{
+    border: 0px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.container h1{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+    transition: all 0.5s ease;
+}
+
+
+#div_game{
+    background-color: #000000;
+    border-radius: 30px;
+    margin: auto;
+    width: 1000px;
+    height: 800px;
+}
+
+#div_questions{
+
+width: 500px;
+margin: auto;
+}
+
+.button{
+    margin: auto;
+    display: inline-block;
+}
+
+#button_verify{
+    width: 100px;
+    margin: auto;
+}
+#input_answer{
+    width: 100px;
+    margin: auto;
+}
+
+.deadCell{
+    background-color: #000000;
+    
+}
+.availableCell{
+    background-color: #ffffff;
+}
+
+footer{
+    height: 80px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px; 
+    margin-bottom: 0;
+    padding: 0;
+    bottom: 0;
+}
+footer p{
+    text-align: center;
+
+}
+#div_information{
+    width: 800px;
+    margin: auto;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+#div_verifiedAnswer{
+    width: 500px;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    vertical-align:center;
+    margin-bottom: 20px;
+}
+.correctAnswer{
+    background-color: #58D68D;
+    color: #196F3D;
+    border:1px #196F3D solid;
+}
+.wrongAnswer{
+    background-color: #EC7063  ;
+    color: #7B241C;
+    border:1px #7B241C solid;
+
+}
+    
