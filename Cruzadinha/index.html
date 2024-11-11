@@ -75,22 +75,22 @@
     var special_words = ['CPU', 'ULA', 'Registradores', 'RAM', 'ROM', 'EPROM', 'FLASH', 'Memória de Massa', 'DMA', 'CS', 'Adress Bus', 'Data Bus', 'I5', 'I7', 'Dual Core', 'Quad Core'];
 
 var questions_list = [
-    'Qual é a sigla para Central Process Unit?',
-    'Um circuto digital que realiza operações lógicas e aritméticas. Qual é o nome deste componente?',
-    'Tipo de memória que se encontra no topo da hierarquia de memória',
-    'Tipo de memória volátil que tem como nome Random Acess Memory. Qual é a sigla deste componente?',
-    'Tipo de memória não volátil que oferece dados apenas para leitura',
-    'Tipo de memória não volátil que precisa ter seu chip exposto a luz ultravioleta para apagar seu conteúdo',
-    'Tipo particular de EEPROM que mantém as informações armazenadas sem a necessidade de uma fonte de energia elétrica',
-    'Tipo de memória que precisa ter seu conteúdo copiado na RAM para poder ser executado pela CPU',
-    'Permite que periféricos acessem diretamente a RAM sem ocupar processamento',
-    'Também conhecido como Slave Select (SS). Usado para selecionar um ou um conjunto de circuitos que estão conectados no computador',
-    'Grupo de linhas ou trilhas usadas para se referir a um endereço físico na memória. O número de trilhas determina a quantidade de endereços na memória física',
-    'Também chamado de Memory Bus. É responsável para carregar os dados.',
-    'Modelo de processador desenvolvido pela Intel qu teve sua primeira versão lançada em setembro de 2009',
-    'Modelo de processador desenvolvido pela Intel qu teve sua primeira versão lançada em novembro de 2008',    
-    'Tipo de processador que possui dois processadores ou melhor dizendo ‘dois centros, núcleos ou cores de execução‘ no mesmo circuito integrado.  Cada core tem sua própria memória cash e controlador o que permite que funcione mais efetivamente do que um processador single',
-    'Segue o mesmo princípio de um dual-core, mas agora em teoria tem o dobro da capacidade de processamento'
+    'É o componente principal de um computador, onde as operações aritméticas, lógicas e de controle acontecem. Ela interpreta e executa instruções de programas, processando dados em operações básicas e complexas',
+    'É a parte da CPU onde acontecem as operações aritméticas (como adição, subtração) e lógicas (comparações entre valores, operações como AND, OR). Ela é essencial para o funcionamento da CPU, pois ela realiza cálculos e tomadas de decisões',
+    'São pequenas áreas de armazenamento de dados ultra-rápidas dentro da CPU. Servem para armazenar temporariamente dados que a CPU está processando, endereços de memória e instruções durante a execução dos programas',
+    'É uma memória volátil que armazena dados e instruções temporários enquanto o computador está em uso. Quando o sistema é desligado, os dados são perdidos.',
+    'É uma memória não volátil, ou seja, mantém os dados mesmo sem energia',
+    'É uma memória que pode ser programada e apagada várias vezes. Para apagar dados, utiliza-se luz ultravioleta',
+    'Uma memória não volátil e regravável que permite o armazenamento permanente de dados. Utilizada em dispositivos móveis, pendrives, SSDs e outros, é versátil e permite leituras e escritas rápidas',
+    'Engloba dispositivos de armazenamento em grande escala, como HDs e SSDs, onde os dados são armazenados de forma permanente para longo prazo, até que o usuário decida apagá-los',
+    'É uma tecnologia que permite que dispositivos de I/O leiam ou escrevam na memória sem a intervenção da CPU, melhorando a eficiência',
+    'É um sinal de controle usado para selecionar e ativar um chip específico, como uma memória ou um componente periférico, em um sistema com vários dispositivos',
+    'É um conjunto de linhas de comunicação que transporta endereços de memória da CPU para a memória e dispositivos de I/O. Ele especifica a localização onde os dados devem ser lidos ou escritos',
+    'É um conjunto de linhas de comunicação que transporta os dados reais entre a CPU, a memória e os dispositivos de I/O. A largura do barramento de dados influencia a quantidade de dados que pode ser transferida simultaneamente',
+    'Fábricado pela Intel em 9 de Setembro em 2009. Possui entre 4 a 6 núcleos, dependendo da geração, e destina-se a usuários que procuram desempenho equilibrado para multitarefa e jogos.',
+    'Fábricado pela intel nos meados de Novembro em 2008. Oferece mais núcleos (geralmente 6 a 8 em modelos recentes) e cache maior, com suporte a tecnologias como o Hyper-Threading, que permite melhor desempenho em multitarefa e em aplicações pesadas.',    
+    'Possui dois núcleos de processamento, como o Intel Core 2 Duo. Esses núcleos podem processar tarefas simultaneamente, permitindo que o sistema lide com mais de uma tarefa ao mesmo tempo (multitarefa básica). É comum em laptops e desktops mais simples.',
+    'Possui quatro núcleos de processamento, como o Intel Core i5, o que permite um desempenho superior em multitarefas e em aplicativos que exigem mais processamento. São comuns em dispositivos para uso profissional e de jogos, onde se precisa de maior desempenho.'
 ];
 
 var filledCell = [2, 20, 38, 133, 134, 135, 59, 77, 95, 113, 131, 149,
